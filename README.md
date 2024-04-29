@@ -1,3 +1,8 @@
+# Solução de Mineração de Conhecimento com Azure AI Search index
+
+Este repositório contém documentação sobre a configuração e uso de um índice de pesquisa Azure AI usando como exemplo a Fourth Coffee, uma rede nacional de cafeterias, para analisar as experiências dos clientes.
+Tentei resumir os passos de criação e dar outros exemplos de utilidade para esses recursos, espero que o material os ajude de algum jeito.
+
 # Índice
 
 - [Visão Geral](#visão-geral)
@@ -15,10 +20,6 @@
 - [Aprendizados Adquiridos](#aprendizados-adquiridos)
 - [IMPORTANTE: Limpeza](#importante-limpeza)
 - [Como me encontrar](#como-me-encontrar)
-
-# Solução de Mineração de Conhecimento com Azure AI Search index
-
-Este repositório contém documentação sobre a configuração e uso de um índice de pesquisa Azure AI usando como exemplo a Fourth Coffee, uma rede nacional de cafeterias, para analisar as experiências dos clientes.
 
 ## Visão Geral
 
@@ -65,7 +66,7 @@ Os seguintes recursos Azure são necessários para esta solução:
 ### Carregar Documentos no Armazenamento Azure
 
 1.  Crie um container na conta de armazenamento.
-2.  Baixe e extraia as avaliações de café fornecidas.
+2.  Baixe e extraia as avaliações de café fornecidas no link [zipped coffee reviews](https://aka.ms/mslearn-coffee-reviews).
 3.  Faça o upload dos arquivos extraídos para o container.
 
 ### Indexar os Documentos
